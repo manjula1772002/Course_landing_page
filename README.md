@@ -6,7 +6,7 @@ landing page for Cyberdude Networks, built using just HTML and CSS.
 
 ---
 # Live demo
-http://127.0.0.1:5501/index.html
+[http://127.0.0.1:5501/index.html](https://manjula1772002.github.io/Course_landing_page/)
 
 ---
 # Author
