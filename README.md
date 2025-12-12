@@ -5,8 +5,7 @@ landing page for Cyberdude Networks, built using just HTML and CSS.
 <img width="1920" height="2071" alt="full screen" src="https://github.com/user-attachments/assets/b803ea15-6065-45c3-8cc1-dcd651511784" />
 
 ---
-# Live demo
-(https://manjula1772002.github.io/Course_landing_page/)
+# Live demo(https://manjula1772002.github.io/Course_landing_page/)
 
 ---
 # Author
