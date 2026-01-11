@@ -6,7 +6,7 @@
 ![alt text](course.png)
 ---
 
-# Live demo(https://manjula1772002.github.io/Course_landing_page/)
+# Live demo (https://manjula1772002.github.io/Course_landing_page/)
 
 ---
 # Author
