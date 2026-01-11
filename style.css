@@ -20,10 +20,7 @@
     background-color: var(--secondry);
     justify-content: space-between;
     height: 50px;
-    padding: 0 30px;
-    
-    
-    
+    padding: 0 30px; 
 
 }
 
@@ -33,12 +30,12 @@
     justify-content: end;
     align-items: center;
     height: 100%;
-    gap: 30px;
+    gap: 50px;
 
 }
 
 .head_second_div>ul>li {
-    padding: 6px;
+    padding:5px 10px;
     list-style: none;
     color: var(--primary);
     font-family: 'Open Sans', sans-serif;
@@ -46,6 +43,11 @@
     font-size: 16px;
     cursor: pointer;
     position: relative;
+    border-radius: 5px;
+}
+.head_second_div>ul>li:hover{
+    color: #fff;
+    background-color: var(--primary);
 }
 
 .banner {
@@ -111,12 +113,29 @@
 .banner_text a {
     text-decoration: none;
 }
-
 /* heading finish*/
+
+
+@media (max-width: 768px) {
+    .content_two_each {
+        width: 100%;
+    }
+
+    .banner_text {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .banner {
+        background-position: center;
+        background-size: 80%;
+    }
+}
 /* section */
 .content_one {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
     padding: 0 30px;
     flex-wrap: wrap;
@@ -180,7 +199,7 @@
     color: #666;
 }
 .content_two_each:nth-child(1) {
-     border-left-color: var(--primary); 
+    border-left-color: var(--primary);
 }
 
 .content_two_each:nth-child(2) {
@@ -188,11 +207,11 @@
 }
 
 .content_two_each:nth-child(3) {
-    border-left-color: var(--yellow);
+    border-left-color: #F7B93E;
 }
 
 .content_two_each:nth-child(4) {
-    border-left-color:var(--purple);
+    border-left-color: #7C7FD8;
 }
 
 
@@ -208,13 +227,26 @@
 }
 
 .content_one_each {
+    background-color: var(--orange);
     color: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
     text-align: center;
-    border-radius: 10px;
+    min-width: 150px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
 }
+.content_one_each:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
 
 .content_one_each h4 {
     text-align: center;
+    margin: 5px auto;
 }
 
 .icons_one {
@@ -251,8 +283,6 @@
  /* icons styles */
 .icons_one {
     background-color: #EB7F2B;
-    padding: 20px;
-    margin-right: 20px;
 }
 
 .icons_one button {
@@ -266,9 +296,6 @@
 
 .icons_two {
     background-color: #2D65B6;
-    padding: 20px;
-    margin-left: 20px;
-
 }
 
 .icons_two button {
@@ -277,13 +304,38 @@
 
 .icons_two button:hover {
     background-color: #2D65B6;
-    color: #fff;}
-    .icons_three {
+    color: #fff;
+}
+
+.icons_three {
     background-color: #F7B93E;
+}
+
+.icons_three button {
+    color: #F7B93E;
+}
+
+.icons_three button:hover {
+    background-color: #F7B93E;
+    color: #fff;
+}
+
+.icons_four {
+    background-color: #7C7FD8;
+}
+
+.icons_four button {
+    color: #7C7FD8;
+}
+
+.icons_four button:hover {
+    background-color: #7C7FD8;
+    color: #fff;
 }
 .content_two_container{
     padding-bottom: 30px;
 }
+
 
 
 
